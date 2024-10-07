@@ -35,6 +35,13 @@ The dataset is an article written in Arabic, containing a mix of Arabic text and
 
 **Conclusion**: Deep learning models, particularly fine-tuned transformers, provide superior accuracy for Arabic POS tagging, especially in handling **multilingual** text.
 
+## Comparison
+|      Method       | Implementation Speed | Execution Speed | Accuracy | Resource Utilization | Robustness|
+|-------------------|----------------------|-----------------|----------|----------------------|-----------|
+| SpaCy POS Tagger  | High                 | High            | low | Low | low|
+| Stanza POS Tagger | High                 | High            | Moderate  | Low | Moderate|
+| Transformer-Based | Moderate             | low             | High | High | High|
+
 # Network Graph Construction with NetworkX
 **Goal**: Visualize the relationships between words and their POS tags using a network graph.
 
